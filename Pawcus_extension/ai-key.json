@@ -1,0 +1,4 @@
+{
+    "_설명":  "Google AI Studio(aistudio.google.com)의 무료 API 키를 아래 key의 따옴표 안에 붙여 넣고 저장한 뒤, chrome://extensions 에서 Pawcus 새로고침. 비워 두면 AI 없이 낱말 방식으로 답한다. 이 파일이 든 폴더·zip은 공개된 곳에 올리지 않는다.",
+    "key":  ""
+}

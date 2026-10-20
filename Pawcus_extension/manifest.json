@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Pawcus 입양 메이트 (엔진 연결)",
+  "version": "0.4.2",
+  "description": "포인핸드 공고 위에서 생활 조건과 공고 정보를 비교해 검토할 후보와 입양 전에 확인할 사항을 정리하는 학습용 보조 도구입니다. 포인핸드 공식 서비스가 아닙니다.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://pawinhand.kr/*", "https://generativelanguage.googleapis.com/*", "https://drive.usercontent.google.com/*", "https://drive.google.com/*"],
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [
+    {
+      "matches": ["https://pawinhand.kr/*"],
+      "js": ["art.js", "team_ui.js", "content.js"],
+      "css": ["content.css", "team_ui.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [{
+    "resources": ["engine-data.json", "health-data.json", "rehearsal_script.json", "care_kb.json", "assets/*", "assets/emoji/*", "matching/*", "fonts/*"],
+    "matches": ["https://pawinhand.kr/*"]
+  }]
+}

@@ -268,7 +268,7 @@ flowchart LR
 
 ## 13. 시연 영상
 
-https://github.com/user-attachments/assets/25f2568c-7df6-4561-95b8-a99573558517
+https://github.com/user-attachments/assets/6312b2d5-4d7a-46d2-9e6f-e479190620e7
 
 > 김준현 씨(혼자 사는 여행작가, 가상 페르소나)가 되어 생활 질문 → 추천 → 담은 아이 비교 → 하루 리허설 → 보호소 질문 정리까지 사용하는 영상입니다. 일부 보호소 기록은 시연용 가상 데이터입니다.
 > 영상 파일 : [docs/Pawcus_Demo.mp4](docs/Pawcus_Demo.mp4)
